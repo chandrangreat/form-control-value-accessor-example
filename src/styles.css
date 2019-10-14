@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+toggle {
+  display: block;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+}
+
+toggle.disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
